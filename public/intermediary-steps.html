@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="index.css">
+<div class="header">
+  <img src="https://www.benefithub.com/hubfs/Logo/BenefitHub-Logo.svg" alt="BenefitHub Logo">
+</div>
+<p class=" ariane">
+  <a href="./index.html">HOME</a> > Checkout with intermediary steps
+</p>
+<h3>Let's demonstrate hubspot form's integration with FastSpring!!!!</h3>
+
+<div class="container">
+
+  <div class="a">
+    <h1>Perks for Young People</h1>
+    <h2>Exclusive Offer For IKEA Business Network Member</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae ante sed diam dignissim consequat sit amet sed erat. Pellentesque hendrerit vel mauris dignissim pretium. Nulla nec ultrices libero. Cras tincidunt sapien ac tristique venenatis. Nulla ornare diam eu est maximus, ac aliquam nisl scelerisque. Phasellus rhoncus, massa sed molestie ullamcorper, neque purus sollicitudin eros, sit amet tincidunt dui turpis vel nibh. Donec quis suscipit arcu. Phasellus non dictum est. Nam tincidunt nulla odio, at volutpat sapien mattis id. Nullam imperdiet urna justo, nec accumsan lectus aliquet vel. Praesent eget metus nisl. Aenean elementum a odio sagittis molestie. Vestibulum non congue mi, sit amet faucibus leo. Maecenas dapibus ipsum ligula, eu tristique est eleifend non.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6mhOtotIXlI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+    <div class="b">
+      <h1>Create Your Own Perks Portal!</h1>
+      <h2>Checkout</h2>
+      <div id="fsc-embedded-checkout-container"></div>
+    </div>
+  </div>
+
+<p id="feedback"></p>
+<script src="./params.js"></script>
+<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/v2.js?pre=1"></script>
+<!-- <script src="./hbs-form-intermediary-step.js"></script> -->
+<script
+    id="fsc-api"
+    src="https://d1f8f9xcsvx3ha.cloudfront.net/sbl/0.8.9/fastspring-builder.min.js"
+    type="text/javascript"
+    data-storefront="benefithub-demo.test.onfastspring.com/embedded-benefithub"
+    data-access-key="QR4IQY22TRCI9VXVZPF5GW"></script>
+<script>
+  fastspring.builder.add("benefithub-subscription");
+  
+
+
+</script>
+
